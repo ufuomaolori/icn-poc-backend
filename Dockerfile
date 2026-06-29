@@ -6,5 +6,5 @@ COPY . .
 RUN addgroup -g 1001 -S nodejs && \
     adduser -S nodejs -u 1001
 USER nodejs
-EXPOSE 5000
+EXPOSE 3000
 CMD ["node", "server.js"]
